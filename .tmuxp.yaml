@@ -1,0 +1,13 @@
+session_name: camera-stream
+start_directory: "${PWD}"
+shell_command_before:
+  - sv
+  - clear
+environment:
+  PROJ: camera-stream
+windows:
+  - window_name: main
+    layout: main-vertical
+    panes:
+    -
+    -
